@@ -1,3 +1,4 @@
 React-For-Beginners-Starter-Files-master/
-*.src
 .directory
+catch-of-the-day/node_modules/.cache/
+*.swp
