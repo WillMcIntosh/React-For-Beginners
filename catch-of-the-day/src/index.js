@@ -8,6 +8,11 @@ import App from './components/App';
 import StorePicker from './components/StorePicker';
 import NotFound from './components/NotFound';
 
+
+// In React, use state to hold data, props to pass data from parent
+// to child. (99% of cases)
+// There is also context which allows something declared at top level to
+// be available to everything underneath (should only be used for Router)
 const Root = () => {
     return (
         <BrowserRouter>
